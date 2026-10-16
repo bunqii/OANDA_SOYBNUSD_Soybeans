@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "SOYBN_USD",
+  "granularity": "M1",
+  "chunk_start": "2019-10-01",
+  "chunk_end": "2019-10-31",
+  "parquet_file": "OANDA_SOYBNUSD_Soybeans_1_2019-10-01_to_2019-10-31.parquet",
+  "data_file": "OANDA_SOYBNUSD_Soybeans_1_2019-10-01_to_2019-10-31.parquet",
+  "row_count": 10558,
+  "first_candle": {
+    "time": 1569888000,
+    "Time": "2019-10-01T00:00:00.000000000Z",
+    "open": 8.944,
+    "high": 8.95,
+    "low": 8.944,
+    "close": 8.948,
+    "volume": 9
+  },
+  "last_candle": {
+    "time": 1572545940,
+    "Time": "2019-10-31T18:19:00.000000000Z",
+    "open": 9.132,
+    "high": 9.132,
+    "low": 9.132,
+    "close": 9.132,
+    "volume": 1
+  },
+  "csv_file": "OANDA_SOYBNUSD_Soybeans_1_2019-10-01_to_2019-10-31.parquet",
+  "csv_row_count": 10558,
+  "csv_first_candle": {
+    "time": 1569888000,
+    "Time": "2019-10-01T00:00:00.000000000Z",
+    "open": 8.944,
+    "high": 8.95,
+    "low": 8.944,
+    "close": 8.948,
+    "volume": 9
+  },
+  "csv_last_candle": {
+    "time": 1572545940,
+    "Time": "2019-10-31T18:19:00.000000000Z",
+    "open": 9.132,
+    "high": 9.132,
+    "low": 9.132,
+    "close": 9.132,
+    "volume": 1
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:43:07.000000000Z",
+  "generated_at": "2026-10-16T02:43:07.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2490,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2019-09-30T17:14:00Z",
+        "to": "2019-10-04T04:34:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-10-04T04:34:00Z",
+        "to": "2019-10-07T15:54:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-10-07T15:54:00Z",
+        "to": "2019-10-11T03:14:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-10-11T03:14:00Z",
+        "to": "2019-10-14T14:34:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-10-14T14:34:00Z",
+        "to": "2019-10-18T01:54:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-10-18T01:54:00Z",
+        "to": "2019-10-21T13:14:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-10-21T13:14:00Z",
+        "to": "2019-10-25T00:34:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-10-25T00:34:00Z",
+        "to": "2019-10-28T11:54:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-10-28T11:54:00Z",
+        "to": "2019-10-31T23:14:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-10-31T23:14:00Z",
+        "to": "2019-11-04T10:34:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
