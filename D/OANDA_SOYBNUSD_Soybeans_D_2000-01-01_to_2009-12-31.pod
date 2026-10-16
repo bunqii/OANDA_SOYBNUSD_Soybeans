@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "SOYBN_USD",
+  "granularity": "D",
+  "chunk_start": "2000-01-01",
+  "chunk_end": "2009-12-31",
+  "parquet_file": "OANDA_SOYBNUSD_Soybeans_D_2000-01-01_to_2009-12-31.parquet",
+  "data_file": "OANDA_SOYBNUSD_Soybeans_D_2000-01-01_to_2009-12-31.parquet",
+  "row_count": 1714,
+  "first_candle": {
+    "time": 1047852000,
+    "Time": "2003-03-16T22:00:00.000000000Z",
+    "open": 5.711,
+    "high": 5.723,
+    "low": 5.646,
+    "close": 5.668,
+    "volume": 863
+  },
+  "last_candle": {
+    "time": 1262210400,
+    "Time": "2009-12-30T22:00:00.000000000Z",
+    "open": 10.353,
+    "high": 10.532,
+    "low": 10.33,
+    "close": 10.403,
+    "volume": 4525
+  },
+  "csv_file": "OANDA_SOYBNUSD_Soybeans_D_2000-01-01_to_2009-12-31.parquet",
+  "csv_row_count": 1714,
+  "csv_first_candle": {
+    "time": 1047852000,
+    "Time": "2003-03-16T22:00:00.000000000Z",
+    "open": 5.711,
+    "high": 5.723,
+    "low": 5.646,
+    "close": 5.668,
+    "volume": 863
+  },
+  "csv_last_candle": {
+    "time": 1262210400,
+    "Time": "2009-12-30T22:00:00.000000000Z",
+    "open": 10.353,
+    "high": 10.532,
+    "low": 10.33,
+    "close": 10.403,
+    "volume": 4525
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:43:40.000000000Z",
+  "generated_at": "2026-10-16T02:43:40.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-03-16T22:00:00Z",
+        "to": "2016-11-22T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
